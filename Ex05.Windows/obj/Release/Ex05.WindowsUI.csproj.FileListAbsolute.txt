@@ -1,0 +1,14 @@
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\bin\Release\Ex05.WindowsUI.exe.config
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\bin\Release\Ex05.WindowsUI.exe
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\bin\Release\Ex05.WindowsUI.pdb
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\bin\Release\Ex05.CheckersLogic.dll
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\bin\Release\Ex05.CheckersLogic.pdb
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\bin\Release\Ex05.CheckersLogic.dll.config
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\obj\Release\Ex05.WindowsUI.csprojAssemblyReference.cache
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\obj\Release\Ex05.WindowsUI.BoardButton.resources
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\obj\Release\Ex05.WindowsUI.FormGameBoard.resources
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\obj\Release\Ex05.WindowsUI.Properties.Resources.resources
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\obj\Release\Ex05.WindowsUI.csproj.GenerateResource.cache
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\obj\Release\Ex05.WindowsUI.csproj.CopyComplete
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\obj\Release\Ex05.WindowsUI.exe
+C:\Users\Guy\source\repos\GuyBalmas\Checkers\Ex05.Windows\obj\Release\Ex05.WindowsUI.pdb

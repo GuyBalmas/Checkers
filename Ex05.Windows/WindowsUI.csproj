@@ -43,9 +43,9 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CheckersLogic\Ex05.CheckersLogic.csproj">
+    <ProjectReference Include="..\CheckersLogic\CheckersLogic.csproj">
       <Project>{d9b1e310-7d9b-4602-b922-8d50ce8e2ce2}</Project>
-      <Name>Ex05.CheckersLogic</Name>
+      <Name>CheckersLogic</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

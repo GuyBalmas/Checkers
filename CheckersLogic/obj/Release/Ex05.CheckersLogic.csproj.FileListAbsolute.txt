@@ -3,3 +3,8 @@ C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKor
 C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKoren-203021803-master\CheckersLogic\bin\Release\Ex05.CheckersLogic.pdb
 C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKoren-203021803-master\CheckersLogic\obj\Release\Ex05.CheckersLogic.dll
 C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKoren-203021803-master\CheckersLogic\obj\Release\Ex05.CheckersLogic.pdb
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\bin\Release\Ex05.CheckersLogic.dll.config
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\bin\Release\Ex05.CheckersLogic.dll
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\bin\Release\Ex05.CheckersLogic.pdb
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\obj\Release\Ex05.CheckersLogic.dll
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\obj\Release\Ex05.CheckersLogic.pdb
