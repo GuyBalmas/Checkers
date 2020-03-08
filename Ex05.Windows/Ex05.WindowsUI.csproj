@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7CE7DC6D-5A78-4685-917B-16245EB7A50D}</ProjectGuid>
+    <ProjectGuid>{0312210C-7763-4575-B7F3-6DA0C860BB06}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Ex05.WindowsUI</RootNamespace>
     <AssemblyName>Ex05.WindowsUI</AssemblyName>
@@ -69,12 +69,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="CheckersForms.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RadioButtonSetting.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="TextBoxSetting.cs">
       <SubType>Component</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BoardButton.resx">
+      <DependentUpon>BoardButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGameBoard.resx">
+      <DependentUpon>FormGameBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

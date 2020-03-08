@@ -49,7 +49,19 @@ namespace Ex05.WindowsUI
 
             return color;
         }
-        
+
+
         #endregion Methods
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // BoardButton
+            // 
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ResumeLayout(false);
+
+        }
     }
 }

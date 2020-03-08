@@ -25,7 +25,7 @@ namespace Ex05.WindowsUI
                     if (currentPlayer.HasLessCoins(waitingPlayer))
                     {
                         MessageBox.Show(
-                   "You'r coins number is small than the rival!",
+                   "You'r coins number is smaller than the rival's!",
                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                         gameBoard.ShowDialog();

@@ -6,6 +6,7 @@ using Ex05.CheckersLogic;
 using static Ex05.CheckersLogic.Enums;
 using static Ex05.CheckersLogic.GameBoard;
 using System;
+using System.IO;
 
 namespace Ex05.WindowsUI
 {
@@ -14,7 +15,7 @@ namespace Ex05.WindowsUI
         #region Class members
         private const int k_SquareSize = 50;
         private const int k_SquareSpace = 10; 
-        private const string k_FormTitle = "Damka";
+        private const string k_FormTitle = "Checkers";
 
         private Label labelPlayer1 = new Label();
         private Label labelPlayer2 = new Label();
@@ -112,6 +113,8 @@ namespace Ex05.WindowsUI
         {
             Coordinate coordinate = sender as Coordinate;
             getButtonFromBoard(coordinate).Text = "";
+            getButtonFromBoard(coordinate).BackgroundImage = null;
+            getButtonFromBoard(coordinate).BackgroundImageLayout = ImageLayout.None;
         }
 
         private void m_Engine_Board_SetCoinOnButton(object sender, EventArgs e)
@@ -125,12 +128,30 @@ namespace Ex05.WindowsUI
             {
                 case (eCoinType.O):
                     button.Enabled = true;
-                    button.Text = coin.Sign + ""; 
+                    if (coin.IsKing)
+                    {
+                        button.BackgroundImage = Image.FromFile(Path.Combine("C:\\Users\\Guy\\source\\repos\\GuyBalmas\\Checkers\\pic", "U.png"));
+                        button.BackgroundImageLayout = ImageLayout.Stretch;
+                    }
+                    else
+                    {
+                        button.BackgroundImage = Image.FromFile(Path.Combine("C:\\Users\\Guy\\source\\repos\\GuyBalmas\\Checkers\\pic", "O.png"));
+                        button.BackgroundImageLayout = ImageLayout.Stretch;
+                    }
                     break;
 
                 case (eCoinType.X):
                     button.Enabled = false;
-                    button.Text = coin.Sign + "";  
+                    if (coin.IsKing)
+                    {
+                        button.BackgroundImage = Image.FromFile(Path.Combine("C:\\Users\\Guy\\source\\repos\\GuyBalmas\\Checkers\\pic", "K.png"));
+                        button.BackgroundImageLayout = ImageLayout.Stretch;
+                    }
+                    else
+                    {
+                        button.BackgroundImage = Image.FromFile(Path.Combine("C:\\Users\\Guy\\source\\repos\\GuyBalmas\\Checkers\\pic", "X.png"));
+                        button.BackgroundImageLayout = ImageLayout.Stretch;
+                    }
                     break;
 
                 default:
@@ -353,8 +374,8 @@ Another Round?", i_WinPlayer.Name);
             else
             {
                 gameOver = !gameOver; // true
-                this.DialogResult = System.Windows.Forms.DialogResult.OK;
-                this.Close();
+                dialogResult = DialogResult.OK;
+                Application.Exit();
             }
 
             return gameOver;
@@ -377,8 +398,8 @@ Another Round?");
             else
             {
                 gameOver = !gameOver; // true
-                this.DialogResult = System.Windows.Forms.DialogResult.OK;
-                this.Close();
+                dialogResult = DialogResult.OK;
+                Application.Exit();
             }
 
             return gameOver;
@@ -392,9 +413,25 @@ Another Round?");
                 {
                     m_BoardButtons[i, j].Text = "";
                     m_BoardButtons[i, j].Enabled = false;
+                    getButtonFromBoard(new Coordinate(i, j)).BackgroundImage = null;
+                    getButtonFromBoard(new Coordinate(i, j)).BackgroundImageLayout = ImageLayout.None;
                 }
             }
         }
         #endregion Private methods
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // FormGameBoard
+            // 
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.DoubleBuffered = true;
+            this.Name = "FormGameBoard";
+            this.ResumeLayout(false);
+
+        }
     }
 }
