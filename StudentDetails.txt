@@ -1,7 +1,7 @@
 ==========================Exercise Checking Report==========================
 Exercise No...........: 5
-First Student Details.: 200980886 - Guy Balmas
-Second Student Details: 203021803 - Dor Koren
+First Student Details.: XXXXXXXXX - Guy Balmas
+Second Student Details: XXXXXXXXX - Dor Koren
 Delivery Date.........: 10 - June - 2018
 Delivered In Delay....: No
 Delay Reason..........: 
