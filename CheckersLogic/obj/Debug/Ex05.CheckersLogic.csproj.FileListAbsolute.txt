@@ -1,0 +1,6 @@
+C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKoren-203021803-master\CheckersLogic\bin\Debug\Ex05.CheckersLogic.dll.config
+C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKoren-203021803-master\CheckersLogic\bin\Debug\Ex05.CheckersLogic.dll
+C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKoren-203021803-master\CheckersLogic\bin\Debug\Ex05.CheckersLogic.pdb
+C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKoren-203021803-master\CheckersLogic\obj\Debug\Ex05.CheckersLogic.csprojAssemblyReference.cache
+C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKoren-203021803-master\CheckersLogic\obj\Debug\Ex05.CheckersLogic.dll
+C:\Users\Guy\Desktop\בינתחומי\GitHub\B18-Ex05-GuyBalmas-200980886-DorKoren-203021803-master\CheckersLogic\obj\Debug\Ex05.CheckersLogic.pdb
