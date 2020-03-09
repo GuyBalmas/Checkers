@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CheckersLogic",
-    "\\Ex05.Windows"
+    "\\CheckersLogic\\bin\\Debug",
+    "\\WindowsUI"
   ],
-  "SelectedNode": "\\Report.doc",
+  "SelectedNode": "\\CheckersSolution.sln",
   "PreviewInSolutionExplorer": false
 }

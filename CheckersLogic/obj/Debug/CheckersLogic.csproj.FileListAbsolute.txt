@@ -1,6 +1,6 @@
-C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\bin\Debug\Ex05.CheckersLogic.dll.config
-C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\bin\Debug\Ex05.CheckersLogic.dll
-C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\bin\Debug\Ex05.CheckersLogic.pdb
-C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\obj\Debug\CheckersLogic.csprojAssemblyReference.cache
-C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\obj\Debug\Ex05.CheckersLogic.dll
-C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\obj\Debug\Ex05.CheckersLogic.pdb
+C:\Users\Guy\source\repos\Checkers\CheckersLogic\bin\Debug\Ex05.CheckersLogic.dll.config
+C:\Users\Guy\source\repos\Checkers\CheckersLogic\bin\Debug\Ex05.CheckersLogic.dll
+C:\Users\Guy\source\repos\Checkers\CheckersLogic\bin\Debug\Ex05.CheckersLogic.pdb
+C:\Users\Guy\source\repos\Checkers\CheckersLogic\obj\Debug\CheckersLogic.csprojAssemblyReference.cache
+C:\Users\Guy\source\repos\Checkers\CheckersLogic\obj\Debug\Ex05.CheckersLogic.dll
+C:\Users\Guy\source\repos\Checkers\CheckersLogic\obj\Debug\Ex05.CheckersLogic.pdb
