@@ -1,7 +1,7 @@
 ﻿using System.Windows.Forms;
-using Ex05.CheckersLogic;
+using CheckersLogic;
 
-namespace Ex05.WindowsUI
+namespace WindowsUI
 {
     public class CheckersForms 
     {

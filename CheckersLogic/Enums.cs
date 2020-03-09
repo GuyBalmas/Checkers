@@ -1,4 +1,4 @@
-﻿namespace Ex05.CheckersLogic
+﻿namespace CheckersLogic
 {
     public class Enums
     {

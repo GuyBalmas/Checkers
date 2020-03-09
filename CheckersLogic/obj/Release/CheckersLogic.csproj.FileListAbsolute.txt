@@ -1,0 +1,5 @@
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\bin\Release\Ex05.CheckersLogic.dll.config
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\bin\Release\Ex05.CheckersLogic.dll
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\bin\Release\Ex05.CheckersLogic.pdb
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\obj\Release\Ex05.CheckersLogic.dll
+C:\Users\Guy\Source\Repos\GuyBalmas\Checkers\CheckersLogic\obj\Release\Ex05.CheckersLogic.pdb

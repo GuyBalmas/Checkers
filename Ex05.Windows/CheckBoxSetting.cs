@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
 
-namespace Ex05.WindowsUI
+namespace WindowsUI
 {
     internal class CheckBoxSetting : CheckBox
     {

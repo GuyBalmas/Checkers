@@ -1,10 +1,10 @@
 ﻿using System.Windows.Forms;
-using static Ex05.WindowsUI.CheckersForms;
+using static WindowsUI.CheckersForms;
 
 // $G$ SFN-013 (7) Bonus:
 
 
-namespace Ex05.WindowsUI
+namespace WindowsUI
 {
     public class Program
     {

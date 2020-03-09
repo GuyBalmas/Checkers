@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Ex05.CheckersLogic.Enums;
-using static Ex05.CheckersLogic.GameBoard;
-using static Ex05.CheckersLogic.Directions;
+using static CheckersLogic.Enums;
+using static CheckersLogic.GameBoard;
+using static CheckersLogic.Directions;
 
-namespace Ex05.CheckersLogic
+namespace CheckersLogic
 {
     public class KingCoin : Coin
     {

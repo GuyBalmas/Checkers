@@ -1,14 +1,13 @@
-﻿using System.Collections.Generic;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 using System.Drawing;
-using static Ex05.WindowsUI.BoardButton;
-using Ex05.CheckersLogic;
-using static Ex05.CheckersLogic.Enums;
-using static Ex05.CheckersLogic.GameBoard;
+using CheckersLogic;
+using static CheckersLogic.Enums;
+using static CheckersLogic.GameBoard;
 using System;
 using System.IO;
+using WindowsUI;
 
-namespace Ex05.WindowsUI
+namespace WindowsUI
 {
     public class FormGameBoard : Form
     {
