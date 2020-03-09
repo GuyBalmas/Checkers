@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using CheckersLogic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using static Ex05.CheckersLogic.GameBoard;
-using static Ex05.CheckersLogic.Enums;
+using static CheckersLogic.Enums;
+using static CheckersLogic.GameBoard;
 
-namespace Ex05.CheckersLogic
+namespace CheckersLogic
 {
    public class Checkers
     {

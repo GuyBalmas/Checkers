@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Ex05.CheckersLogic;
-using static Ex05.CheckersLogic.Enums;
+using CheckersLogic;
+using static CheckersLogic.Enums;
 
-namespace Ex05.WindowsUI
+namespace WindowsUI
 {
     public class FormGameSetting : Form
     {

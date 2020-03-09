@@ -1,8 +1,8 @@
 ﻿using System;
-using static Ex05.CheckersLogic.Enums;
-using static Ex05.CheckersLogic.GameBoard;
+using static CheckersLogic.Enums;
+using static CheckersLogic.GameBoard;
 
-namespace Ex05.CheckersLogic
+namespace CheckersLogic
 {
     
     public class EndOfGameEventArgs : EventArgs

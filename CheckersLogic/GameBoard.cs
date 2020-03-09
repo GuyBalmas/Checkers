@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
-using static Ex05.CheckersLogic.Enums;
+using static CheckersLogic.Enums;
 
-namespace Ex05.CheckersLogic
+namespace CheckersLogic
 {
     public class GameBoard
     {
