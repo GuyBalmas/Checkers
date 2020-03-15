@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D9B1E310-7D9B-4602-B922-8D50CE8E2CE2}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Ex05.CheckersLogic</RootNamespace>
-    <AssemblyName>Ex05.CheckersLogic</AssemblyName>
+    <RootNamespace>CheckersLogic</RootNamespace>
+    <AssemblyName>CheckersLogic</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

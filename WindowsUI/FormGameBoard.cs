@@ -5,7 +5,7 @@ using static CheckersLogic.Enums;
 using static CheckersLogic.GameBoard;
 using System;
 using System.IO;
-using WindowsUI;
+using WindowsUI.Properties;
 
 namespace WindowsUI
 {
@@ -20,7 +20,7 @@ namespace WindowsUI
         private Label labelPlayer2 = new Label();
         private BoardButton[,] m_BoardButtons;
 
-        private Engine m_Engine;   
+        private Engine m_Engine;
        #endregion Class members
 
         #region Constructor
@@ -129,12 +129,12 @@ namespace WindowsUI
                     button.Enabled = true;
                     if (coin.IsKing)
                     {
-                        button.BackgroundImage = Image.FromFile(Path.Combine("C:\\Users\\Guy\\source\\repos\\GuyBalmas\\Checkers\\pic", "U.png"));
+                        button.BackgroundImage = Properties.Resources.U;
                         button.BackgroundImageLayout = ImageLayout.Stretch;
                     }
                     else
                     {
-                        button.BackgroundImage = Image.FromFile(Path.Combine("C:\\Users\\Guy\\source\\repos\\GuyBalmas\\Checkers\\pic", "O.png"));
+                        button.BackgroundImage = Properties.Resources.O;
                         button.BackgroundImageLayout = ImageLayout.Stretch;
                     }
                     break;
@@ -143,12 +143,12 @@ namespace WindowsUI
                     button.Enabled = false;
                     if (coin.IsKing)
                     {
-                        button.BackgroundImage = Image.FromFile(Path.Combine("C:\\Users\\Guy\\source\\repos\\GuyBalmas\\Checkers\\pic", "K.png"));
+                        button.BackgroundImage = Properties.Resources.K;
                         button.BackgroundImageLayout = ImageLayout.Stretch;
                     }
                     else
                     {
-                        button.BackgroundImage = Image.FromFile(Path.Combine("C:\\Users\\Guy\\source\\repos\\GuyBalmas\\Checkers\\pic", "X.png"));
+                        button.BackgroundImage = Properties.Resources.X;
                         button.BackgroundImageLayout = ImageLayout.Stretch;
                     }
                     break;
